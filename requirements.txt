@@ -1,0 +1,27 @@
+# Core ML/CV libraries
+opencv-python
+ultralytics
+numpy
+pillow
+
+# Data handling
+pandas
+pyyaml
+
+# LLM integration
+requests
+ollama-python
+
+# Utilities
+tqdm
+matplotlib
+seaborn
+
+# Optional: Jupyter for notebooks
+jupyter
+ipywidgets
+
+# Testing
+pytest
+pytest-cov
+

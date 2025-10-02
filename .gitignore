@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Model files (too large for git)
+models/yolo/*.pt
+models/llm/*/
+*.onnx
+*.engine
+
+# Data files
+data/sample_videos/*.mp4
+data/sample_videos/*.avi
+data/outputs/frames/*
+data/outputs/annotations/*
+data/outputs/reports/*
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API Keys and secrets
+.env
+secrets.yaml
+**/api_keys.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# PyTorch model files
+*.pt
+*.pth
+*.bin
+
+

@@ -1,0 +1,32 @@
+# Security Incident Analyzer Configuration
+project:
+  name: "Security Incident Analyzer"
+  version: "0.1.0"
+
+model_config:
+  active_tier: "demo"
+  
+  tiers:
+    demo:
+      vision_model:
+        name: "yolov8n.pt"
+        confidence_threshold: 0.25
+        iou_threshold: 0.7
+      
+      llm_model:
+        provider: "ollama"
+        name: "tinyllama:1.1b"
+        temperature: 0.3
+        max_tokens: 200
+
+video_processing:
+  frame_skip: 2  # Process every 2nd frame for speed
+  max_frames: 300  # Limit for demo videos
+  output_fps: 10
+
+paths:
+  models: "./models"
+  data: "./data"
+  outputs: "./data/outputs"
+  
+ 
